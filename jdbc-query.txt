@@ -1,4 +1,5 @@
 CREATE DATABASE authdb_jdbc;
+use authdb_jdbc;
 CREATE TABLE users (
   id BIGINT PRIMARY KEY AUTO_INCREMENT,
   name VARCHAR(80) NOT NULL,
